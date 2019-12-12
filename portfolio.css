@@ -1,0 +1,60 @@
+/**/
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    background-color: rgba(112, 128, 144, 0.5);
+}
+
+footer{
+    text-align: justify;
+    
+}
+
+/*  */
+.experience {
+
+}
+
+.container {
+    margin: 5%;
+    padding: 10em;
+    text-align: justify;
+    background-color: rgba(245, 245, 245, 0.5);
+}
+
+.nav-bar{
+
+}
+
+.profile-image{
+
+}
+
+.skills-header {
+
+}
+
+.skills-table {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.skills-list {
+
+}
+
+.skill-item{
+
+}
+
+/* ID Tags */
+#introduction {
+    /* border: 10em; */   
+}
+
+#personal-summary {
+
+}
+
+#professional-experiences {
+
+}
