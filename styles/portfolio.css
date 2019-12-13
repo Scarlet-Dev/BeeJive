@@ -1,0 +1,38 @@
+:root{
+    --primary: rgba(42, 74, 140, 1);
+    --secondary: rgba(65, 107, 191, 1);
+    --tertiary: rgba(10, 152, 230, 1);
+    --text: rgba(255, 255, 255, 1);
+    --accent: rgba(242, 151, 41, 1);
+    --warning: rgba(191, 106, 3, 1);
+}
+
+html { font-family: Arial, Helvetica, sans-serif; }
+section{ margin-left: 25%; }
+
+/* Side Nav */
+#sidenav { display: block; position: fixed; top: 0; left: 0; z-index: 1; width: 25%; height: 100%;
+    text-align: justify; }
+
+#sidenav ul{ list-style: none; margin: 0; padding: 0; margin: 0; height: 100%; padding-top: 20px;
+    background-color: var(--primary); }
+    
+#sidenav a{ text-decoration: none; }
+    
+#sidenav li{ margin: 0% 10%; font-size: 30px; color: var(--text); padding-top: 5px;}
+
+#experience { } 
+
+#profile-image{  }
+
+.icon{ height: 24px; width: 24px; vertical-align: bottom; }
+
+/* Special Classes */
+.experience {  }
+   
+
+.skills-header{  }
+
+.skills-table { font-family:  }
+.skills-list {  }
+.skill-item{  }
