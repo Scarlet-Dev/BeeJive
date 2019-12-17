@@ -1,6 +1,86 @@
 {
-    "title":"Test Title",
-    "img":"img",
-    "tags":["C#", "Web", "MVC", "ASP.Net"],
-    "description":"Test description"
+    "$schema": "http://json.schemastore.org/project",
+    "title":"Github Projects List",
+    "description": "A list of projects current on my Github account as 'Worker Bee'.",
+    "authors": ["Akane Simpson"],
+    "type":"array",
+    "projects":[
+        {
+            "title":"The Arbory",
+            "img":"img",
+            "description":"Test description",
+            "link":"https://github.com/Scarlet-Dev/TheArbory",
+            "tags":["NativeScript", "Mobile", "Cross Platform", "Angular"]
+        },
+        {
+            "title":"HotelGo",
+            "img":"img",
+            "description":"Test description",
+            "link":"https://github.com/Scarlet-Dev/HotelGo",
+            "tags":["Web", "HTML", "CSS", "JavaScript", "Knockout.JS", "jQuery", "Ajax"]
+        },
+        {
+            "title":"HotelGoService",
+            "img":"img",
+            "description":"Test description",
+            "link":"https://github.com/Scarlet-Dev/HotelGo-Service",
+            "tags":["C#", "Web API", "WCF", "IIS", "SQL Server"]
+        },
+        {
+            "title":"Kiter",
+            "img":"img",
+            "description":"Test description",
+            "link":"https://github.com/Scarlet-Dev/Kiter",
+            "tags":["Mobile", "Cross Platform", "NativeScript", "Angular"]
+        },
+        {
+            "title":"Freedom Feast",
+            "img":"img",
+            "description":"Test description",
+            "link":"https://github.com/Scarlet-Dev/FreedomFeast",
+            "tags":["API", "Web", "Express.JS", "Node.JS", "MongoDB", "JavaScript"]
+        },
+        {
+            "title":"Freedom Feast NG",
+            "img":"img",
+            "description":"Test description",
+            "link":"https://github.com/Scarlet-Dev/FreedomFeast_Ng",
+            "tags":["Web", "Mobile", "Angular", "NativeScript", "Cross Platform", "TypeScript"]
+        },
+        {
+            "title":"NGO Events",
+            "img":"img",
+            "description":"Test description",
+            "link":"https://github.com/Scarlet-Dev/NGO_Events",
+            "tags":["Web", "C#", "MVC", "ASP.Net", "Entity", "SQL Server"]
+        },
+        {
+            "title":"CMAST-Connect CMS",
+            "img":"img",
+            "description":"Test description",
+            "link":"https://github.com/Scarlet-Dev/Cmast-Connect-CMS",
+            "tags":["Web", "CMS", "Strapi", "Express.JS", "Node.JS", "Angular", "MongoDB"]
+        },
+        {
+            "title":"CMAST-Connect Student Portal",
+            "img":"img",
+            "description":"Test description",
+            "link":"https://github.com/Scarlet-Dev/Cmast-Connect-Student-Portal",
+            "tags":["Web", "Gatsby", "React", "GraphQL"]
+        },
+        {
+            "title":"Secure Share",
+            "img":"img",
+            "description":"Test description",
+            "link":"https://github.com/Scarlet-Dev/SSHomePage",
+            "tags":["Java", "Web", "MVC", "Express.JS", "EJS", "Node.JS"]
+        },
+        {
+            "title":"Homework Hotties",
+            "img":"img",
+            "description":"Test description",
+            "link":"https://github.com/Scarlet-Dev/HomeworkHotties",
+            "tags":["MVC", "Express.JS", "Node.JS", "EJS", "Web", "MVC", "MongoDB"]
+        }
+    ]
 }

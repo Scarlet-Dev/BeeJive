@@ -1,0 +1,151 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema",
+    "title": "Akane Simpson Experience",
+    "description": "A list of work experiences.",
+    "authors":["Akane Simpson"],
+    "type":"array",
+    "experience":[
+        {
+            "position":"Full Stack .Net Developer",
+            "employer":"HotelGO",
+            "location":"Lancaster, PA",
+            "start-date":"October 2019",
+            "end-date":"Present",
+            "responsibilities":[
+                "Created and maintain dedicated SQL Database to manage hotel data, rooms status and availability, and basic guest information.",
+                "Designed and implemented WCF web services that supports both SOAP and REST architecture for legacy and modern web applications.",
+                "Building legacy client MVVM website using HTML, CSS, JS & KnockoutJS."
+            ],
+            "position":"Full Stack .Net Developer",
+            "employer":"Donegal Mutual Insurance Group",
+            "location":"Marietta, PA",
+            "start-date":"May 2019",
+            "end-date":"September 2019",
+            "responsibilities":[
+                "Managed several troubleshooting tasks, maintaining and improving the company’s inhouse Windows Forms auditing application and services related to their commercial product built using C#, SQL Server and Oracle.",
+                "Resolved several of the company’s issues on their commercial systems such as billing processing, quotes premiums calculations and other bugs related to their Web Forms application.",
+                "Completed and deployed new quote/issue history reports to a SSRS that’s used by the auditing application."
+            ],
+            "position":"MEAN Stack Developer",
+            "employer":"Freedom Feast",
+            "location":"South Plainfield, NJ",
+            "start-date":"March 2019",
+            "end-date":"April 2019",
+            "responsibilities":[
+                "Produced Adobe XD mockups that are mobile friendly and addressed.",
+                "Generated various Angular components and stylized with Angular Material based on mockups.",
+                "Implemented Express.JS and created a RESTful API with connected storage in MongoDB."
+            ],
+            "position":".Net Developer",
+            "employer":"NGO Events",
+            "location":"South Plainfield, NJ",
+            "start-date":"January 2019",
+            "end-date":"February 2019",
+            "responsibilities":[
+                "Coordinated with team in requirements gathering and workload division into three modules and held responsibility in developing the Events module.",
+                "Created Event module using C#, Asp.Net MVC then added a RESTful API for added utility.",
+                "Assisted in design custom CSS theme then applied to the Razor pages."
+            ],
+            "position":"Web Developer",
+            "employer":"CMAST-Connect",
+            "location":"Grambling, LA",
+            "start-date":"January 2018",
+            "end-date":"May 2018",
+            "responsibilities":[
+                "Planned a two-part development project that used a JavaScript headless CMS with API support and an Angular frontend to display various posts, events and activities scheduled by the academic center.",
+                "Designed Adobe XD mockups that targeted both mobile and desktop end points.",
+                "Applied Admin panel utility to CMS used to create post and content was saved in a DropBox account."
+            ],
+            "position":"Back End Developer",
+            "employer":"Secure Share",
+            "location":"Grambling, LA",
+            "start-date":"September 2017",
+            "end-date":"November 2017",
+            "responsibilities":[
+                "Designed and implemented an external web socket application that allowed the application to send SMS via Twillio API and sending email alerts via Java Mail when a user accesses a file on the on-premise system.",
+                "Mocked Express.JS website and hosting of the desktop application for download.",
+                "Performed cost estimation using COCOMO that considered the hours worked with a project estimate $10,000."
+            ],
+            "position":"Web Developer",
+            "employer":"Hacker Hostel",
+            "location":"Kingston, Jamaica",
+            "start-date":"May 2017",
+            "end-date":"July 2017",
+            "responsibilities":[
+                "Participated in securing in several requirements gathering meetings for several small to large business on the island and suggested key features that would address the client’s needs and able to secure projects with one of the island’s larger manufacturing companies.",
+                "Performed further R&D into emerging web technologies and possible solutions that are viable for each company’s needs.",
+                "Collaborated with colleagues in designing wireframes to better represent the client’s design plan solution."
+            ],
+            "position":"Project Manager",
+            "employer":"NASA Swarmathon Robotics Competition",
+            "location":"Grambling, LA",
+            "start-date":"January 2017",
+            "end-date":"April 2017",
+            "responsibilities":[
+                "Organized three teams of seven, each responsible for modules that each team would focus on completing such as documentation, search implementation and object detection in a virtual environment using C++.",
+                "Setup several lab workstations that hosted the competition’s virtual environment on Ubuntu systems and created shared Git repositories that consolidated the work produced by the team.",
+                "Using Agile methodologies, performed weekly meetings that helped in documenting the development process and issues that the team faced."
+            ],
+            "position":"Web Developer",
+            "employer":"Homework Hotties",
+            "location":"Grambling, LA",
+            "start-date":"September 2016",
+            "end-date":"November 2016",
+            "responsibilities":[
+                "Applied Waterfall method to develop project plans, and constructed site UML and mappings and conducted requirements gathering from client and generated key class modules for Employees, Customers and Courses offered by the service.",
+                "Researched several web technologies and tools that could possibly help improve project development.",
+                "Built a static website using Express.JS with Bootstrap and jQuery clients and own style theme."
+            ],
+            "position":"Copyeditor/News Editor",
+            "employer":"The Gramblinite",
+            "location":"Grambling, LA",
+            "start-date":"April 2017/October 2016",
+            "end-date":"October 2016",
+            "responsibilities":[
+                "Curated writers’ stories that would be featured on News page of student newspaper and helped writers in arranging and proofreading their literary work.",
+                "Coordinated with staff editors in creating a cohesive student newspaper and ensured design and content quality of each page.",
+                "Assisted in the layout and editing of pages to ensure quality content and design, creating weekly budgets used in determining who covers stories on campus."
+            ],
+            "position":"Work Study Student",
+            "employer":"Student Technology Center",
+            "location":"Grambling, LA",
+            "start-date":"June 2016",
+            "end-date":"June 2016",
+            "responsibilities":[
+                "Provided PC technical support to students and escalate issues to management.",
+                "Maintained printers and troubleshooted network issues in a Windows 10 environment.",
+                "Managed night shift at student lab and performed paper stock count, toner level and general sanitary work."
+            ],
+            "position":"Customer Service Representative",
+            "employer":"Columbus Communications Jamaica Ltd. (Flow)",
+            "location":"Kingston, Jamaica",
+            "start-date":"August 2015",
+            "end-date":"August 2015",
+            "responsibilities":[
+                "Managed outstanding orders from company’s headquarters and other branches of the island.",
+                "Conversed with customers on outstanding balances for installation of home and business internet service equipment.",
+                "Collaborated with senior employees in the handling of more difficult orders that did not fit within conventional guidelines."
+            ],
+            "position":"Customer Service Representative",
+            "employer":"Diabetes Association of Jamaica",
+            "location":"Kingston, Jamaica",
+            "start-date":"June 2015",
+            "end-date":"July 2015",
+            "responsibilities":[
+                "Organized and entered patient data such as vitals and contact information into spreadsheets.",
+                "Undertook in the design and implementation of crowd-funding project that would assist in offsetting treatment costs for patients with renal failure.",
+                "Managed and organized medical inventory for use in various outreach programs."
+            ],
+            "position":"Customer Service Representative",
+            "employer":"Digital Systems and Supplies",
+            "location":"Kingston, Jamaica",
+            "start-date":"July 2014",
+            "end-date":"August 2014",
+            "responsibilities":[
+                "Assisted customers with purchases of office supplies, printers and printer inks and other stationaries as well as document copying, faxing, scanning and printing.",
+                "Completed daily inventory checks on supplies such as paper, ink, and print orders.",
+                "Arranged various prints for customers such as business cards, flyers, laminated certificates, posters and bounded documents."
+            ]
+        }
+    ]
+}

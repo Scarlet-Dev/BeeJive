@@ -1,38 +1,90 @@
 :root{
-    --primary: rgba(42, 74, 140, 1);
-    --secondary: rgba(65, 107, 191, 1);
-    --tertiary: rgba(10, 152, 230, 1);
+   
+    --primary: rgb(255, 140, 0);
+    --secondary: rgb(226, 152, 14);
+    --tertiary: #BF6A03;
     --text: rgba(255, 255, 255, 1);
-    --accent: rgba(242, 151, 41, 1);
-    --warning: rgba(191, 106, 3, 1);
 }
 
-html { font-family: Arial, Helvetica, sans-serif; }
-section{ margin-left: 25%; }
+@media screen and (min-width: 200px) and (max-width: 480px){
+    .fab-icon-holder{ margin: 0; }
+}
 
-/* Side Nav */
-#sidenav { display: block; position: fixed; top: 0; left: 0; z-index: 1; width: 25%; height: 100%;
-    text-align: justify; }
+@media screen and (min-width: 481px) and (max-width: 768){
+    .fab-icon-holder{ margin-right: 10px; }
+}
 
-#sidenav ul{ list-style: none; margin: 0; padding: 0; margin: 0; height: 100%; padding-top: 20px;
-    background-color: var(--primary); }
-    
-#sidenav a{ text-decoration: none; }
-    
-#sidenav li{ margin: 0% 10%; font-size: 30px; color: var(--text); padding-top: 5px;}
 
-#experience { } 
+html { font-family: Arial, Helvetica, sans-serif; background-image: url('../img/beehive.jpg'); 
+    background-repeat: no-repeat; background-attachment: fixed;}
+section{ margin: 0% 25%; }
 
-#profile-image{  }
+/* FAB */
+.fab{ cursor: pointer; }
+
+.fab-container{ position: fixed; bottom: 50px; right: 0px; z-index: 999;margin-right: 20%; }
+
+.fab-icon-holder{ margin: 0; width: 75px; height: 75px; border-radius: 100%;
+    background-color: var(--secondary); box-shadow: 0 6px 20px rgba(0,0,0,0,2); }
+
+.fab-icon-holder a{ text-decoration: none; }
+
+.fab-icon-holder i{ display: flex; align-items: center; justify-content: center; 
+    height: 100%; font-size: 25px; color: var(--text); }
+
+.fab-icon-holder:hover{ opacity: 0.8; }
+
+.fab-options{ list-style: none; position: absolute; bottom: 70px; right: 0px;
+    opacity: 0; transform: scale(0); transform-origin: 85% bottom;
+    transition: all 0.5s ease; }
+
+.fab-options li{ padding: 5px 0px; display: flex; justify-content: flex-end;
+    align-items: center; }
+
+.fab-label{ padding: 5px 10px; margin-right: 10px; align-self: center;
+    user-select: none; white-space: nowrap; border-radius: 3px; font-size: 12px;
+    background-color: #666666; color: var(--text);
+    box-shadow: 0 6px 20px rgba(0,0,0,0,0.2); }
+
+.fab:hover + .fab-options, .fab-options:hover { opacity: 1; transform: scale(1) ; }
+
+
+
+
+/* #skills{}
+
+#experience { }  */
+
 
 .icon{ height: 24px; width: 24px; vertical-align: bottom; }
 
 /* Special Classes */
-.experience {  }
+.collapse{  
+    background-color: #eeeeee; 
+    color: #444444;
+    cursor: pointer;
+    padding: 20px;
+    width: 100%;
+    border: none;
+    text-align: center;
+    outline: none;
+    font-size: 40px;
+}
+.active, .collapse:hover{
+    background-color: #cccccc;
+}
+.content{ 
+    /* max-height: 0; */
+    /* display: none;  */
+    padding: 0 18px;
+    overflow: hidden;
+    background-color: #f1f1f1;
+}
+/* .experience {  } */
    
 
-.skills-header{  }
+/* .skills-header{  } */
 
-.skills-table { font-family:  }
-.skills-list {  }
-.skill-item{  }
+/* .skills-table { font-family:  } */
+/* .skills-list {  } */
+/* .skill-item{  } */
