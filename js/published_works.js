@@ -1,1 +1,0 @@
-var published_works_data = JSON.parse($.getJSON('../data/gramblinite-links.json'));
