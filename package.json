@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Scarlet-Dev/WorkerBeeHive.git"
+    "url": "git+https://github.com/Scarlet-Dev/BeeJive.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Scarlet-Dev/WorkerBeeHive/issues"
+    "url": "https://github.com/Scarlet-Dev/BeeJive/issues"
   },
-  "homepage": "https://github.com/Scarlet-Dev/WorkerBeeHive#readme",
+  "homepage": "https://github.com/Scarlet-Dev/BeeJive#readme",
   "dependencies": {
     "autoprefixer": "^9.8.6",
     "gulp": "^4.0.2"
